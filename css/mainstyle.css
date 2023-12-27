@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond&family=Inter&family=Jura&family=Merriweather&family=Quicksand&display=swap');
+.hovaten
+{font-family: 'Jura',Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"}
+nav
+{position:fixed;
+width: 100%;
+padding: 5px 0;
+background-color: rgba(24,63,66,0.91);
+	box-shadow: 0 5px 10px #ddd;
+	border:none;
+	z-index:9999998
+}
+section
+{
+	min-height: 400px;
+	padding:100px 0
+}
+footer
+{padding: 50px 0;
+background-color:#E6CB5E
+}
+
+nav .menu a:hover
+{	border-bottom: 2px solid rgba(39,105,218,1.00)
+}
+nav .menu  ul li:hover >ul
+{display: block
+}
+.btn-primary
+{
+	background-color: #F0FFE5;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #E6CB5E;
+	font-size: 20px;
+}
+.btn-primary:hover
+{
+	background:#E6CB5E;
+	color: #F0FFE5
+}
+body
+{background-image: url("../images/parttern.png");
+
+background-repeat:no-repeat;
+	background-position: left
+}
+.bannerchay
+{background-position: 400px
+}
+.imag
+{image-size: auto}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding:0px;
+	overflow: hidden;
+	background-color:#1F1F1F;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0
+}
+li{float: left}
+li a
+{ display: block;
+	color: white;
+	text-align: center;
+	padding: 13px 128px ;
+	text-decoration: none;
+	
+	
+}
+li a:hover{
+	background-color: #641819
+}
+.active
+{background-color: rgba(230,203,94,1.00)}
